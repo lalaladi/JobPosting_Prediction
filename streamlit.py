@@ -14,7 +14,7 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
 # IBM Watson credentials
-api_key = 'vD5MYd1qlPmuSio9ubmytdXmbUApziO74nS969CDjtAo'
+api_key = 'puKabkitvKXlaGRpojQAXx9GRp9BML00zqKA9RqJtDdU'
 location = 'us-south'
 wml_credentials = {
     "apikey": api_key,
@@ -23,9 +23,9 @@ wml_credentials = {
 
 # Initialize Watson Machine Learning client
 client = APIClient(wml_credentials)
-space_id = '9b602fc8-d468-41cb-a19a-b140f78e4d00'
+space_id = 'a58633c5-05e9-4686-aa7b-0441a0df945e'
 client.set.default_space(space_id)
-deployment_id = '91213a22-e99b-4644-bf07-9501dbf54991'
+deployment_id = 'c6306e5c-7605-4598-b2ee-05117b7c61ba'
 
 # Define text preprocessing function
 stop_words = set(stopwords.words("english"))
